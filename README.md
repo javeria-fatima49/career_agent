@@ -37,6 +37,8 @@ get_job_roles(field) → Returns job examples for that field
 
 ✅ Python 3.10+
 
+---
+
 🗂️ Folder Structure
 multi-agents/
 ├── main.py         # Chainlit app with all agent logic
@@ -57,7 +59,7 @@ Run the Chainlit app:
 
 chainlit run main.py
 Interact in chat UI:
-
+---
 Write: I want to become a web developer
 
 Agent will guide you step by step ✅
@@ -70,7 +72,7 @@ CareerAgent suggests: Data Scientist
 SkillAgent lists required tools (Python, Pandas, ML, etc.)
 
 JobAgent lists job titles like Junior Data Scientist, ML Engineer, etc.
-
+---
 💡 Features
 💬 Gemini-generated smart replies
 
