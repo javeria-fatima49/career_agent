@@ -1,6 +1,6 @@
 # 🎓 Career Mentor Agent (Multi-Agent System)
 
-This project is an interactive **Career Guidance AI Assistant** that helps students explore career paths, required skills, and real-world job roles — powered by **Gemini 1.5** and displayed using **Chainlit UI**.
+This project is an interactive **Career Guidance AI Assistant** that helps students explore career paths, required skills, and real-world job roles.
 
 ---
 
@@ -37,17 +37,9 @@ get_job_roles(field) → Returns job examples for that field
 
 ✅ Python 3.10+
 
-✅ .env for secure API key management
-
-✅ python-dotenv for environment variable loading
-
 🗂️ Folder Structure
-bash
-Copy
-Edit
 multi-agents/
-├── .env                     # Gemini API key (not uploaded)
-├── main_chainlit.py         # Chainlit app with all agent logic
+├── main.py         # Chainlit app with all agent logic
 ├── career_agent.py
 ├── skill_agent.py
 ├── job_agent.py
@@ -57,22 +49,13 @@ multi-agents/
 🚀 How to Run
 Install required libraries manually:
 
-bash
-Copy
-Edit
-pip install chainlit google-generativeai python-dotenv
+pip install chainlit google-generativeai 
 Set your Gemini API key in .env file:
 
-ini
-Copy
-Edit
 GEMINI_API_KEY=AIzaSyDk...YourKeyHere
 Run the Chainlit app:
 
-bash
-Copy
-Edit
-chainlit run main_chainlit.py
+chainlit run main.py
 Interact in chat UI:
 
 Write: I want to become a web developer
